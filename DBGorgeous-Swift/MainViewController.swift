@@ -44,7 +44,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
             button.topAnchor.constraint(equalTo: self.scrollView.topAnchor).isActive = true
             button.leftAnchor.constraint(equalTo: self.scrollView.leftAnchor, constant:CGFloat((i-1)*80)).isActive = true
             button.widthAnchor.constraint(equalToConstant: 80).isActive = true
-            button.heightAnchor.constraint(equalToConstant: 30).isActive = true
+            button.heightAnchor.constraint(equalToConstant: 40).isActive = true
             button.backgroundColor = UIColor.white
             button.tag = i
             button.setTitle(buttonArray[i-1], for: .normal)
@@ -56,7 +56,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         self.scrollView.snp.makeConstraints { (make) in
             make.left.width.equalToSuperview()
             make.top.equalToSuperview().offset(64)
-            make.height.equalTo(30)
+            make.height.equalTo(40)
         }
     }
     

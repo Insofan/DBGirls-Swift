@@ -13,6 +13,5 @@ pod 'MJExtension'
 pod 'Alamofire'
 pod 'PKHUD'
 pod 'MJRefresh'
-
 pod 'SKPhotoBrowser', :git => 'https://github.com/suzuki-0000/SKPhotoBrowser.git', :branch => 'swift3'
 end
