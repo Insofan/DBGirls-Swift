@@ -17,16 +17,15 @@
 
 CocoaPod安装的库
 
-Ji
-SnapKit
-SDWebImage
-MJExtension
-Alamofire
-PKHUD
-MJRefresh
-SKPhotoBrowser
+- Ji
 
-
+- SnapKit
+- SDWebImage
+- MJExtension
+- Alamofire
+- PKHUD
+- MJRefresh
+- SKPhotoBrowser
 
 ### 使用
 
